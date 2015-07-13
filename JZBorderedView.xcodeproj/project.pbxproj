@@ -84,7 +84,7 @@
 		E76EFF021B536F980049F00A /* JZBorderedView */ = {
 			isa = PBXGroup;
 			children = (
-				E76EFF291B536FEA0049F00A /* JZBorderedView */,
+				E76EFF291B536FEA0049F00A /* Classes */,
 				E76EFF071B536F980049F00A /* AppDelegate.h */,
 				E76EFF081B536F980049F00A /* AppDelegate.m */,
 				E76EFF0A1B536F980049F00A /* ViewController.h */,
@@ -123,13 +123,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E76EFF291B536FEA0049F00A /* JZBorderedView */ = {
+		E76EFF291B536FEA0049F00A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				E76EFF2A1B53704D0049F00A /* JZBorderedView.h */,
 				E76EFF2B1B53704D0049F00A /* JZBorderedView.m */,
 			);
-			path = JZBorderedView;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
