@@ -14,7 +14,7 @@
 		E76EFF111B536F980049F00A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E76EFF101B536F980049F00A /* Images.xcassets */; };
 		E76EFF141B536F980049F00A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E76EFF121B536F980049F00A /* LaunchScreen.xib */; };
 		E76EFF201B536F980049F00A /* JZBorderedViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E76EFF1F1B536F980049F00A /* JZBorderedViewTests.m */; };
-		E76EFF311B539C700049F00A /* JZBorderedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E76EFF301B539C700049F00A /* JZBorderedView.m */; };
+		E76EFF351B539F3A0049F00A /* JZBorderedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E76EFF341B539F3A0049F00A /* JZBorderedView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		E76EFF191B536F980049F00A /* JZBorderedViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZBorderedViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76EFF1E1B536F980049F00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E76EFF1F1B536F980049F00A /* JZBorderedViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZBorderedViewTests.m; sourceTree = "<group>"; };
-		E76EFF2F1B539C700049F00A /* JZBorderedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZBorderedView.h; sourceTree = "<group>"; };
-		E76EFF301B539C700049F00A /* JZBorderedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZBorderedView.m; sourceTree = "<group>"; };
+		E76EFF331B539F3A0049F00A /* JZBorderedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZBorderedView.h; sourceTree = "<group>"; };
+		E76EFF341B539F3A0049F00A /* JZBorderedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZBorderedView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		E76EFF021B536F980049F00A /* JZBorderedView */ = {
 			isa = PBXGroup;
 			children = (
-				E76EFF291B536FEA0049F00A /* Classes */,
+				E76EFF321B539F3A0049F00A /* Classes */,
 				E76EFF071B536F980049F00A /* AppDelegate.h */,
 				E76EFF081B536F980049F00A /* AppDelegate.m */,
 				E76EFF0A1B536F980049F00A /* ViewController.h */,
@@ -123,19 +123,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E76EFF291B536FEA0049F00A /* Classes */ = {
+		E76EFF321B539F3A0049F00A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E76EFF2E1B539C700049F00A /* JZBorderedView */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		E76EFF2E1B539C700049F00A /* JZBorderedView */ = {
-			isa = PBXGroup;
-			children = (
-				E76EFF2F1B539C700049F00A /* JZBorderedView.h */,
-				E76EFF301B539C700049F00A /* JZBorderedView.m */,
+				E76EFF331B539F3A0049F00A /* JZBorderedView.h */,
+				E76EFF341B539F3A0049F00A /* JZBorderedView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -241,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E76EFF0C1B536F980049F00A /* ViewController.m in Sources */,
-				E76EFF311B539C700049F00A /* JZBorderedView.m in Sources */,
+				E76EFF351B539F3A0049F00A /* JZBorderedView.m in Sources */,
 				E76EFF091B536F980049F00A /* AppDelegate.m in Sources */,
 				E76EFF061B536F980049F00A /* main.m in Sources */,
 			);
@@ -440,6 +432,7 @@
 				E76EFF251B536F980049F00A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E76EFF261B536F980049F00A /* Build configuration list for PBXNativeTarget "JZBorderedViewTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +441,7 @@
 				E76EFF281B536F980049F00A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

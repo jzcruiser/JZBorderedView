@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JZBorderedView"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A UIView subclass with four configurable borders via storyboard"
 
   s.description  = <<-DESC
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/jessiejames1116/JZBorderedView.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/jessiejames1116/JZBorderedView.git", :commit => "8619b8f4842c8d55e81d426483056009d37a5a40" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "JZBorderedView/Classes", "JZBorderedView/Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
