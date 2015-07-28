@@ -16,7 +16,7 @@ This might be the alternative solution you are looking for as static UITableView
 
 Cocoapods
 
-	pod 'JZBorderedView', '~> 0.0.4'
+	pod 'JZBorderedView', '~> 0.0.5'
   
 ## References
 Inspired by https://github.com/hedjirog/HJRSeparatableView
