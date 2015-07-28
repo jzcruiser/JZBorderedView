@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_OPTIONS(NSUInteger,  JZSeparatorPosition) {
-     JZSeparatorPositionNone = 1 << 0,
-     JZSeparatorPositionTop = 1 << 1,
-     JZSeparatorPositionLeft = 1 << 2,
-     JZSeparatorPositionBottom = 1 << 3,
-     JZSeparatorPositionRight = 1 << 4,
+typedef NS_OPTIONS(NSUInteger, JZSeparatorPosition) {
+    JZSeparatorPositionNone = 1 << 0,
+    JZSeparatorPositionTop = 1 << 1,
+    JZSeparatorPositionLeft = 1 << 2,
+    JZSeparatorPositionBottom = 1 << 3,
+    JZSeparatorPositionRight = 1 << 4,
 };
 
 @interface JZSeparator : UIView
@@ -22,18 +22,19 @@ typedef NS_OPTIONS(NSUInteger,  JZSeparatorPosition) {
 @property (nonatomic, assign) CGFloat width;
 
 @property (nonatomic, assign) UIEdgeInsets insets;
-@property (nonatomic, assign)  JZSeparatorPosition position;
+@property (nonatomic, assign) JZSeparatorPosition position;
 
 @end
 
+IB_DESIGNABLE
 @interface JZBorderedView : UIView
 
 @property (nonatomic, strong) NSMutableArray *separators;
 
-@property (nonatomic, strong)  JZSeparator *topSeparator;
-@property (nonatomic, strong)  JZSeparator *leftSeparator;
-@property (nonatomic, strong)  JZSeparator *bottomSeparator;
-@property (nonatomic, strong)  JZSeparator *rightSeparator;
+@property (nonatomic, strong) JZSeparator *topSeparator;
+@property (nonatomic, strong) JZSeparator *leftSeparator;
+@property (nonatomic, strong) JZSeparator *bottomSeparator;
+@property (nonatomic, strong) JZSeparator *rightSeparator;
 
 @property (nonatomic, strong) IBInspectable UIColor *separatorColor;
 @property (nonatomic, assign) IBInspectable CGFloat separatorWidth;
