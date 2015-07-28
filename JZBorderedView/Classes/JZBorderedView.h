@@ -26,7 +26,7 @@ typedef NS_OPTIONS(NSUInteger, JZSeparatorPosition) {
 
 @end
 
-IB_DESIGNABLE
+//IB_DESIGNABLE
 @interface JZBorderedView : UIView
 
 @property (nonatomic, strong) NSMutableArray *separators;
